@@ -125,9 +125,9 @@ body {
 
 /*for smaller screens*/
 
-@media (max-width: 30rem) {
+@media (max-width: 37.5rem) {
   .calculator {
-    grid-template-columns: repeat(4, 2.5rem); /* Adjust button size for small screens */
+    grid-template-columns: repeat(4, 2.5rem); 
     grid-template-rows: minmax(3rem, auto) repeat(5, 2.5rem);
   }
 
